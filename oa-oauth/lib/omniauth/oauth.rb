@@ -6,6 +6,7 @@ module OmniAuth
     autoload :OAuth2,             'omniauth/strategies/oauth2'
     
     autoload :Twitter,            'omniauth/strategies/twitter'
+    autoload :Buzz,               'omniauth/strategies/buzz'
     autoload :LinkedIn,           'omniauth/strategies/linked_in'
     autoload :Facebook,           'omniauth/strategies/facebook'
     autoload :GitHub,             'omniauth/strategies/github'
@@ -17,7 +18,5 @@ module OmniAuth
     autoload :Dopplr,             'omniauth/strategies/dopplr'
     autoload :Meetup,             'omniauth/strategies/meetup'
     autoload :SoundCloud,         'omniauth/strategies/sound_cloud'
-    autoload :SmugMug,            'omniauth/strategies/smug_mug'
-    autoload :Goodreads,          'omniauth/strategies/goodreads'
   end
 end
